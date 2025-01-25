@@ -9,3 +9,8 @@ Feature: Sauce Demo Application
    When user should sort the product as "Price (high to low)"
    And user should select 3 products
    Then user should click on shopping Cart Trolly
+   
+   Scenario: Validate PersonalPage Functionality
+   When user should click on checkout button
+   And user should enter fname as "Swara" and lname as "Patil" and pcode as "112233"
+   Then user shold click on continue button

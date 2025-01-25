@@ -14,3 +14,7 @@ Feature: Sauce Demo Application
    When user should click on checkout button
    And user should enter fname as "Swara" and lname as "Patil" and pcode as "112233"
    Then user shold click on continue button
+   
+   Scenario: Validate finish button and BackToHome button Functionality
+   When user should click on  finish button
+   And user should click on backto home button

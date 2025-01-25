@@ -18,7 +18,7 @@ public class ProductPage extends BaseClass{
 	@FindBy(xpath="//select[@class='product_sort_container']")
 		private WebElement sortProduct;
 	
-	@FindBys(@FindBy(xpath="//button[@class='btn btn_primary btn_small btn_inventory '"))
+	@FindBys(@FindBy(xpath="//div[@class='inventory_item_price']/following-sibling::button"))
 	private List<WebElement> productList;
 	
 	@FindBy(id="shopping_cart_container")
